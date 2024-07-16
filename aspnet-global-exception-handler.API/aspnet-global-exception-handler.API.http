@@ -1,0 +1,6 @@
+@aspnet_global_exception_handler.API_HostAddress = http://localhost:5237
+
+GET {{aspnet_global_exception_handler.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
